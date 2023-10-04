@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   font-synthesis: none;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-text-size-adjust: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 300;
+	transition: color 0.4s ease;
+}
+
+.delete:hover {
+	color: Red
+}
+
+td:nth-child(2){
+	text-transform: capitalize;
+}
+
+.Inativo{
+	color:#dc3545;
+}
+
+.Ativo {
+ color: #28a745;	
+}
+
+ .crud {
+	 font-weight: 700;
+ }
+ 
+ input[type="search"]{
+	 border:0;
+	 outline: 0
+ }
